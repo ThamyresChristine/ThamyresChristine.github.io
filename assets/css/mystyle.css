@@ -1,0 +1,196 @@
+﻿/*Fonte do Site*/
+html {
+    font-family: "Hepta Slab", serif;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/*****************Header******************/
+header {
+    background-color: rgb(215, 6, 84); /*rgb(215, 6, 84);*/
+    color: aliceblue; 
+    border-radius:2cqb;
+    height: 150px;
+}
+
+#titulo-principal {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#menu {
+    background-color: #000000;
+    height: 30%;
+    border-bottom-left-radius:2cqb;
+    border-bottom-right-radius:2cqb;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    height: 95%;
+}
+
+.link-menu {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight:bold;
+    font-style: normal;
+    font-size: large;
+}
+
+li a:hover {
+    color: rgb(215, 6, 84);
+}
+
+/*
+img {
+    width: 50px;
+    border-radius: 15px;
+}
+#secao-acima {
+    display: flex;
+}*/
+
+
+/*****************Body******************/
+
+    /*Formação*/
+body {
+    background-color: #FFEFC8;
+}
+
+#div1 {
+    background-color: rgb(255, 217, 95);
+    padding: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius:2cqb;
+}
+
+.texto-inicial {
+    text-align: center;
+}
+
+    /*Soft e Hard Skills*/
+.div-section {
+    width: 100%;
+    background-color: #B8D576;
+    padding: 7px;
+    text-align: justify;
+    border-radius:2cqb;
+}
+
+#section1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+    /*Projetos*/
+.subtitulos {
+    text-align: center;
+    font-style: italic;
+    font-family: "Hepta Slab", serif;
+    color: #D70654;
+}
+
+#titulo-projeto {
+    text-align: center; 
+    color:#D70654; 
+    font-style: italic;
+}
+
+.textos {
+    text-align: justify;
+    padding: 15px;
+}
+
+.titulos-projetos-princ {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+#clique-aqui {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*****************Footer******************/
+footer {
+    background-color: rgb(215, 6, 84);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius:2cqb;
+    text-align: center;
+    color: aliceblue;
+}
+
+.link-ft {
+    color: aliceblue;
+    text-decoration: none;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+    font-size: large;
+}
+
+div a:hover {
+    color: #000000;
+}
+
+/******************Página Projetos******************/
+#principal {
+    width: 100%;
+    border-radius:2cqb;
+}
+
+.div-projetos {
+    width: 100%;
+    
+}
+
+.projeto {
+    background-color: #b8d5767c;
+    width: 23.5%;
+    margin: 5px;
+    float: left;
+    padding: 5px;
+    border-radius: 2cqb;
+    text-align: center;
+    height: 240px;
+}
+
+.clear {
+    clear: left;
+}
+
+.titulos-projetos {
+    text-align: center;
+}
+
+
+/******************Página Sobre Mim******************/
+
+#texto-sobre-mim {
+    text-align: justify;
+    margin: 15px;
+    line-height: 30px;
+}
+
+img  {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#texto-e-foto {
+    display: flex;
+    margin-bottom: 18px;
+}
