@@ -7,21 +7,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/mystyle.css">
-    <title>Thamyres</title>
+    <title>Thamyres Christine de Andrade Soares</title>
 </head>
 <header>
-    <!-- <div id="secao-acima">
-        US <button><img src="assets/fotos/eua.png"/></button>
-    </div> -->
     <div id="titulo-principal">
         <h1>Olá, Eu sou a Thamyres! Seja Bem-Vindo ao meu site!</h1>
     </div>
     <nav id="menu">
         <ul id="nav">
             <li><a href="index.html" class="link-menu" target="_self"> | Home | </a></li>
-            <li><a href="projetos.html" class="link-menu" target="_self"> | Projetos | </a></li>
+            <li><a href="#sobre-mim" class="link-menu"> | Sobre Mim | </a></li>
             <li><a href="https://www.dio.me/users/thamyreschristine" class="link-menu"  target="_blank"> | Perfil DIO | </a></li>
-            <li><a href="assets/CV Thamyres Christine de Andrade Soares.pdf" class="link-menu" target="_blank"> | CV Completo(pdf) | </a></li>
+            <li><a href="https://br.linkedin.com/in/thamyres-c-de-a-soares" class="link-menu" target="_blank"> | LinkedIn | </a></li>
         </ul>
     </nav>
 </header>
@@ -29,7 +26,8 @@
 <body>
     <div id="div1">
         <h3 class="subtitulos">Formação Profissional</h3>
-        <p class="texto-inicial">Formada em Matemática e com Especialização em BigData.
+        <p id="formacao">
+            Formada em Matemática e com Especialização em BigData.
         </p>
     </div>
     <section id="section1">
@@ -46,7 +44,7 @@
         </div>
         <div class="div-section">
             <h3 class="subtitulos">Soft Skills</h3>
-            <ul>
+            <ul style="list-style-type: circle;">
                 <li>Liderança</li>
                 <li>Oratória</li>
                 <li>Resolução de Problemas</li>
@@ -59,8 +57,8 @@
             <h3 class="subtitulos">Tecnologias</h3>
             <ul>
                 <li>Git & GitHub</li>
-                <li>Azure (AZ-900)</li>
-                <li>AWS ()</li>
+                <li>Azure</li>
+                <li>AWS</li>
                 <li>Visual Studio Code</li>
                 <li>MySQL</li>
                 <li>Google Colab</li>
@@ -68,43 +66,112 @@
         </div>
     </section>
 
-    <h2 id="titulo-projeto">Principais Projetos</h2>
+    <h2 id="titulo-projeto">Projetos</h2>
     
     <main id="container-projetos">
-        <section class="section">
-            <h3><a href="projetos/projetoUm.html" target="_blank" class="titulos-projetos-princ">Blog</a></h3>
-            <p class="textos">Projeto realizado para o curso de <strong>Desenvolvimento de Sistemas</strong> junto com os alunos
-            na <i>Proz Educação.</i> Como primeiro projeto FrontEnd, a ideia era criar uma página Wiki, 
-            com um assunto escolhido pelo estudante, onde ele aplica as principais Tags de estrutura e textuais do HTML.</p>
-        </section>
-        <section class="section">
-            <h3><a href="https://studio.code.org/projects/applab/b1fawtxRQ0gVV4tvPyU0OQpJ3ijQ8Cgd8hmlg-9NdKs" target="_blank" class="titulos-projetos-princ">Meu Android</a></h3>
-            <p class="textos">Projeto feito durante o módulo de Desenvolvimento de Sistemas para Celulares, 
-            onde foi aplicado os conceitos de Programação Mobile - UI, UX, programção em JavaScript - 
-            resultando na criação de um smartphone com utilizades básicas.
-            </p>
-        </section>
-        <section class="section">
-            <h3><a href="projetos/java/src/Calculadora/UsuarioCalculadora.java" target="_blank" class="titulos-projetos-princ">Calculadora em Java</a></h3>
-            <p class="textos"> Calculadora com as funções básicas realizada em Java para 
-                o curso de <strong>Desenvolvimento de Sistemas</strong> junto com os alunos
-                na <i>Proz Educação.</i>
-            </p>
-        </section>
+
+        <div class="div-projetos">
+            <div class="projeto">
+                <h3 class="titulos-projetos">FrontEnd: História da Internet</h3>
+                <a href="https://htmlpreview.github.io/?https://github.com/ThamyresChristine/htm-developer-DIO-modulo01/blob/main/projetoUm.html" target="_blank">Acesse Aqui</a>                            
+            </div>                                                      
+            <div class="projeto">
+                <h3 class="titulos-projetos">FrontEnd: Página de Login</h3>
+                Acesse Aqui
+            </div>
+            <div class="projeto">
+                <h3 class="titulos-projetos">FrontEnd: Wikipédia</h3>
+                <a href="https://github.com/ThamyresChristine/html-developer-DIO-modulo03" target="_blank" class="link-projetos">Acesse Aqui</a>
+            </div>
+        </div>
+
+        <div class="div-projetos">
+            <div class="projeto">
+                <h3 class="titulos-projetos">Protótipo de Site</h3>
+                <a href="https://htmlpreview.github.io/?https://github.com/ThamyresChristine/html-developer-DIO-modulo02/blob/main/index.html" target="_blank">Acesse Aqui</a>
+            </div>
+            <div class="projeto">
+                <h3 class="titulos-projetos">Python: Conversor de Temperatura</h3>
+                <a href="https://github.com/ThamyresChristine/Python-Simple-Projects/blob/main/conversor-temperatura.ipynb" target="_blank">Acesse Aqui</a>                            
+            </div>                                                      
+            <div class="projeto">
+                <h3 class="titulos-projetos">Python: Cálculo do IMC</h3>
+                <a href="https://github.com/ThamyresChristine/Python-Simple-Projects/blob/main/calculo-imc.ipynb" target="_blank">Acesse Aqui</a>
+            </div>
+        </div> 
+
+        <div class="div-projetos">                                                     
+            <div class="projeto">
+                <h3 class="titulos-projetos">Java: Jogo de adivinhação</h3>
+                <a href="https://github.com/ThamyresChristine/Java-Simple-Projects/blob/main/JogoAdivinha%C3%A7%C3%A3o/JogoAdivinhacao.java" target="_blank">Acesse Aqui</a>
+            </div>
+            <div class="projeto">
+                <h3 class="titulos-projetos">Java: Calculadora</h3>
+                <a href="https://github.com/ThamyresChristine/Java-Simple-Projects/blob/main/Calculadora/UsuarioCalculadora.java" target="_blank">Acesse Aqui</a>
+            </div>
+            <div class="projeto">
+                <h3 class="titulos-projetos">Java: Gerador de senhas</h3>
+                <a href="https://github.com/ThamyresChristine/Java-Simple-Projects/blob/main/GeradorDeSenhas/GeradorSenhas.java" target="_blank">Acesse Aqui</a>
+            </div>
+        </div> 
+
+        <div class="div-projetos">
+            <div class="projeto">
+                <h3 class="titulos-projetos">Azure: IA Gen com Copilot </h3>
+                <a href="https://github.com/ThamyresChristine/MS_Azure_AI900_DIO__IA_Generativa_com_Copilot" target="_blank">Acesse Aqui</a>                            
+            </div>                                                      
+            <div class="projeto">
+                <h3 class="titulos-projetos">Azure: Cognitive Search </h3>
+                <a href="https://github.com/ThamyresChristine/MS_Azure_AI900_DIO_Azure_Cognitive_Search" target="_blank">Acesse Aqui</a>
+            </div>
+            <div class="projeto">
+                <h3 class="titulos-projetos">Azure: Análise de Sentimentos </h3>
+                <a href="https://github.com/ThamyresChristine/MS_Azure_AI900_DIO_Analise_Sentimentos_com_Language_Studio" target="_blank">Acesse Aqui</a>
+            </div>
+        </div>
+        
+        <div class="div-projetos">
+            <div class="projeto">
+                <h3 class="titulos-projetos">Azure: Machine Learning na Prática </h3>
+                <a href="https://github.com/ThamyresChristine/MS_Azure_AI900_DIO_ML_na_pratica" target="_blank">Acesse Aqui</a>                            
+            </div>                                                      
+            <div class="projeto">
+                <h3 class="titulos-projetos">Azure: Reconhecimento Facial </h3>
+                <a href="https://github.com/ThamyresChristine/MS_Azure_AI900_DIO_Reconhecimento_Facial_e_transforma-o_de_imagens_em_Dados" target="_blank">Acesse Aqui</a>
+            </div>
+            <div class="projeto">
+                <h3 class="titulos-projetos">JavaScript: Smartphone (code.org)</h3>
+                <a href="https://studio.code.org/projects/applab/pe_zhivZ0k5yxMmKLUzs6iB4ViukXSsUs81wGyCfC8E/" target="_blank">Acesse Aqui</a>
+            </div>
+        </div>
     </main>
 
-    <div style="text-align: center;">
-        <p>Para mais projetos, <a href="projetos.html" target="_blank" id="clique-aqui">Clique Aqui</a></p>
-    </div>
+    <hr>
+
+    <section>
+        <h2 id="sobre-mim">
+            Quem Sou eu
+        </h2>
+        <div id="quem-sou-eu">  
+            <p id="texto-sobre-mim">
+                Nerd em tempo integral, atualmente sou professora.
+                Sou uma pessoa organizada e lógica, com uma sede profunda por conhecimento e sempre buscando a excelência na resolução de desafios.
+                Atualmente estou focando na área de Data Science, estudando Estatística, Python e R.
+                Entre meus hobbies estão: caminhadas, leitura e filmes.
+            </p>
+        </div>
+    </section>
 </body>
 <footer>
     <div>
-        <h3><a href="https://br.linkedin.com/in/thamyres-c-de-a-soares" target="_blank" class="link-ft">LinkedIn</a></h3>
+        <h3><a href="#titulo-principal" class="link-ft">Home</a></h3>
+    </div>
+    <div>
         <h3><a href="https://github.com/ThamyresChristine" target="_blank" class="link-ft">GitHub</a></h3>
     </div>
     <div>
-        <h3><a href="sobre-mim.html" target="_self" class="link-ft">Sobre Mim</a></h3>
-        <h3><a href="projetos.html" target="_self" class="link-ft">Projetos</a></h3>    
+        <h3><a href="#titulo-projeto" class="link-ft">Projetos</a></h3>  
     </div>
 </footer>
+<p style="text-align: center;"> &copy; Thamyres Christine de Andrade Soares 2025 | Todos os direitos reservados.</p>
 </html>
